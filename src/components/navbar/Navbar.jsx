@@ -28,8 +28,8 @@ export default function Navbar() {
 
     <nav id="home" className=''>
       <div className='container flex justify-between items-center py-3 px-3 sm:py-0'>
-        <h1 className="text-3xl md:text-5xl font-bold text-primary flex justify-center items-center px-16 ">
-          portfofio
+        <h1 className="text-3xl md:text-5xl font-bold text-[#f98e2b] flex justify-center items-center px-16 ">
+          portfolio
         </h1>
 
         {/* desktop nav  */}
