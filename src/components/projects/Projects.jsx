@@ -2,6 +2,7 @@ import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import movie_Bloge from '../../assets/movie_bloge.png'
 import portfolio from "../../assets/portfolio.png"
+import weather_app from "../../assets/weathe_app.png"
 
 
 export default function Projects() {
@@ -21,11 +22,11 @@ export default function Projects() {
       github: "https://github.com/Khan-Shuvo/personal_portfolio"
     },
     {
-      title: "Chat App",
-      description: "Real-time chat application built using React, Firebase Authentication, and Firestore Database.",
-      image: "/projects/chatapp.png",
-      live: "https://your-live-link.com",
-      github: "https://github.com/your-repo"
+      title: "weather_app",
+      description: "Real-time weather application built using React.",
+      image: weather_app,
+      live: "https://khan-shuvo.github.io/weather_app/",
+      github: "https://github.com/Khan-Shuvo/weather_app"
     },
   ];
 
