@@ -30,7 +30,7 @@ export default function Hero() {
                 <div>
                     <img
                         src={person}
-                        className="w-full md:max-w-lg mx-auto backdrop-blur-sm"
+                        className="w-full md:max-w-lg mx-auto backdrop-blur-sm h-96"
                         alt="person"
                     />
                 </div>
