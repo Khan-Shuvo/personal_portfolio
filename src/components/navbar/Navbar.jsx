@@ -13,20 +13,20 @@ export default function Navbar() {
       link: "/#about",
     },
     {
-      name: "Services",
-      link: ".#services",
+      name: "Skills",
+      link: "/#skills"
     },
     {
-      name: "Contact",
-      link: "#",
-    },
+      name: "Projects",
+      link: "/#projects"
+   }
   ];
 
   const [menu, setMenu] = useState(false);
 
   return (
 
-    <nav id="home" className='bg-[#f3f4f3]'>
+    <nav id="home" className='bg-[#f3f4f3] sticky top-0 z-50'>
       <div className='container mx-auto flex justify-between items-center py-3 px-3 sm:py-0'>
         <h1 className="text-3xl md:text-5xl font-bold text-[#f98e2b] flex justify-center items-center px-16 ">
           portfolio
